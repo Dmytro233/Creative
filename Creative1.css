@@ -1,0 +1,487 @@
+body {
+    background-color: whitesmoke;
+    margin 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+/*Header*/
+
+header {
+    background: url(img/Layer%2096.png) no-repeat center top / cover;
+    height: 870px;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    margin-top: 21px;
+}
+
+.main_menu {
+    float:right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main_menu li {
+    float: left;
+    display: block;
+    margin-top: 54px;
+    margin-right: 48px;
+}
+
+.main_menu li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.icon {
+    margin-right: 30px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 105px;
+    margin-top: 295px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: #11749e;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+.scroll_down {
+    margin-top: 118px;
+    margin-left: 550px;
+}
+
+.scroll_down img {
+    position: relative;
+}
+
+.s1 {
+    top: -80px;
+}
+
+.s2 {
+    left: -75px;
+}
+
+.s3 {
+    left: -123px;
+    top: -30px;
+}
+
+/*Section1*/
+
+.section1 {
+    background-color: #11749e;
+    height: 740px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 170px;
+    text-align: center;
+}
+
+.feature_s {
+    display: block;
+    width: 260px;
+    margin-top: 140px;
+    float: left;
+    margin-right: 35px;
+}
+
+.c_picture img {
+    position: relative;
+}
+
+.circle {
+    left: 63px;
+}
+
+.c_icon {
+    right: 25px;
+    bottom: 50px
+}
+
+h3 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.feature_s h6 {
+     text-align: center;
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: 20px;
+    font-weight: 100;
+    
+}
+
+/*Section2*/
+
+.grey {
+    background-color: #222222;
+    height: 445px;
+}
+
+.g_text {
+    float: left;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+h4 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.g_picture {
+    max-height: 445px;
+    max-width: 800p;
+    float: right;
+}
+
+.white {
+    background-color: #f3f3f3;
+    height: 445px;
+}
+
+.w_text {
+    float: right;
+    margin-top: 90px;
+    margin-right: 100px;
+}
+
+.w_text h4 {
+    color: #222222;
+}
+
+.w_text h6 {
+    color: #222222;
+}
+
+.w_picture {
+    max-height: 445px;
+    max-width: 800p;
+    float: left;
+}
+
+/* Section3*/
+
+.section3 {
+    background-color: #ffffff;
+}
+
+.b_title h2 {
+    color: #222222;
+    position: relative;
+}
+
+.b_title img {
+    position: relative;
+    margin-left: 530px;
+    bottom: 105px;
+}
+
+.section3 h5 {
+    text-align: center;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    color: #222222;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.blog_s {
+    display: block;
+    width: 250px;
+    float: left;
+    margin-top: 100px;
+    margin-right: 45px;
+    margin-bottom: 110px;
+}
+
+.blog_s img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.blog_s h3 {
+    color: #11749e;
+}
+
+.blog_s h6 {
+    color: #656565;
+    text-align: center;
+}
+
+/* Section4*/
+
+.section4 {
+    background-color: #11749e;
+    height: 350px;
+}
+
+.write div {
+    float: left;
+}
+
+.write_s {
+    display: block;
+    width: 550px;
+    margin-right: 40px;
+    margin-top: 140px;
+}
+
+.write_s img {
+    float: left;
+}
+
+.write_s h6 {
+    float: right;
+}
+
+/* Section5*/
+
+.section5 {
+    background: url(img/Layer%2087.png) no-repeat center top / cover;
+    height: 840px;
+}
+
+.phone div {
+    float: left;
+}
+
+.phone_s {
+    margin-top: 150px;
+    margin: 100px;
+}
+
+.phone_s h4 {
+    margin: 0;
+    padding: 0;
+    margin-top: 80px;
+}
+
+.phone_s h6 {
+    margin-top: 45px;
+}
+
+.blue_text {
+    margin-top: 65px;
+}
+
+.blue_text h5 {
+    display: block;
+    background-color: #11749e;
+    color: white;
+    padding: 5px;
+}
+
+.blue_text_1 {
+    width: 300px;
+}
+
+.blue_text_2 {
+    width: 330px;
+    margin-top: 20px;
+}
+
+.blue_text_3 {
+    width: 360px;
+    margin-top: 20px;
+}
+
+.phone_s img {
+    max-height: 650px;
+    max-width: 315px;
+}
+
+/* Section6*/
+
+.section6 {
+    background-color: #ffffff;
+    height: 950px;
+}
+
+.t_title h2 {
+    color: #222222;
+    position: relative;
+}
+
+.t_title img {
+    position: relative;
+    margin-left: 530px;
+    bottom: 105px;
+}
+
+.section6 h5 {
+    text-align: center;
+}
+
+.team_s {
+    display: block;
+    width: 250px;
+    float: left;
+    margin-top: 100px;
+    margin-right: 45px;
+    margin-bottom: 110px;
+}
+
+.team_s img {
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.name_t {
+    display: block;
+    position: relative;
+    width: 150px;
+    margin-left: 45px;
+    bottom: 31px;
+    background-color: white;
+}
+
+.team_s h3 {
+    margin: 0;
+    padding: 0;
+    color: #11749e;
+}
+
+.team_s h6 {
+    color: #656565;
+    text-align: center;
+}
+
+/* Section7*/
+
+.section7 {
+    background: url(img/Layer%2097.png) no-repeat center top;
+    height: 1260px;
+}
+
+.c_title h2 {
+    color: white;
+    position: relative;
+}
+
+.c_title img {
+    position: relative;
+    margin-left: 530px;
+    bottom: 105px;
+}
+
+input::-webkit-input-placeholder {
+    color: white;
+}
+
+.submit_1 input {
+    border: 1px solid white;
+	background-color: transparent;
+    color: white;
+    float: left;
+    width: 360px;
+    height: 50px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.submit_1 input:nth-child(3) {
+    float: right;
+}
+
+.submit_1 input:nth-child(2) {
+    margin-left: 45px;
+}
+
+.submit_2 input {
+    border: 1px solid white;
+	background-color: transparent;
+    color: white;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+
+.submit_3 input {
+    border: 0 none;
+    background-color: #11749e;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 230px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 480px;
+}
+
+.map {
+    margin-top: 150px;
+}
+
+/* Footer*/
+
+footer {
+    background-color: #222222;
+    height: 110px;
+}
+
+.footer_text h6 {
+    float: left;
+    margin-top: 45px;
+}
+
+.footer_text h6:nth-child(2) {
+    float: right;
+}
