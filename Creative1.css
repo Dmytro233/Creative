@@ -69,7 +69,7 @@ h1 {
     text-align: center;
 }
 
-p {
+header p {
     margin: 0;
     padding: 0;
     color: #11749e;
@@ -119,15 +119,14 @@ h2 {
     text-align: center;
 }
 
-.feature_s {
-    display: block;
-    width: 260px;
+.feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 50px;
     margin-top: 140px;
-    float: left;
-    margin-right: 35px;
 }
 
-.c_picture img {
+.circle_picture img {
     position: relative;
 }
 
@@ -161,15 +160,25 @@ h6 {
 
 /*Section2*/
 
-.grey {
-    background-color: #222222;
-    height: 445px;
+.grey_and_white {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.g_picture {
+    display: block;
+    width: 673px;
+}
+
+.w_picture {
+    display: block;
+    width: 673px;
 }
 
 .g_text {
-    float: left;
-    margin-top: 90px;
-    margin-left: 100px;
+    padding-top: 90px;
+    padding-left: 100px;
+    background-color: #222222;
 }
 
 h4 {
@@ -178,21 +187,10 @@ h4 {
     font-size: 20px;
 }
 
-.g_picture {
-    max-height: 445px;
-    max-width: 800p;
-    float: right;
-}
-
-.white {
-    background-color: #f3f3f3;
-    height: 445px;
-}
-
 .w_text {
-    float: right;
-    margin-top: 90px;
-    margin-right: 100px;
+    padding-top: 90px;
+    padding-left: 100px;
+    background-color: #f3f3f3;
 }
 
 .w_text h4 {
@@ -201,12 +199,6 @@ h4 {
 
 .w_text h6 {
     color: #222222;
-}
-
-.w_picture {
-    max-height: 445px;
-    max-width: 800p;
-    float: left;
 }
 
 /* Section3*/
@@ -238,18 +230,20 @@ h5 {
     font-weight: 100;
 }
 
-.blog_s {
-    display: block;
-    width: 250px;
-    float: left;
+.blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 100px;
-    margin-right: 45px;
     margin-bottom: 110px;
 }
 
 .blog_s img {
     max-width: 250px;
     max-height: 250px;
+}
+
+.b_picture {
+    text-align: center;
 }
 
 .blog_s h3 {
@@ -268,15 +262,11 @@ h5 {
     height: 350px;
 }
 
-.write div {
-    float: left;
-}
-
-.write_s {
-    display: block;
-    width: 550px;
-    margin-right: 40px;
-    margin-top: 140px;
+.write {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 130px;
+    padding-top: 140px;
 }
 
 .write_s img {
@@ -294,13 +284,11 @@ h5 {
     height: 840px;
 }
 
-.phone div {
-    float: left;
-}
-
-.phone_s {
-    margin-top: 150px;
-    margin: 100px;
+.phone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 200px;
+    padding-top: 150px;
 }
 
 .phone_s h4 {
@@ -365,19 +353,20 @@ h5 {
     text-align: center;
 }
 
-.team_s {
-    display: block;
-    width: 250px;
-    float: left;
+.team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 100px;
-    margin-right: 45px;
     margin-bottom: 110px;
+}
+
+.t_picture {
+    text-align: center;
 }
 
 .team_s img {
     max-width: 250px;
     max-height: 250px;
-    margin-left: 20px;
     position: relative;
 }
 
@@ -385,8 +374,8 @@ h5 {
     display: block;
     position: relative;
     width: 150px;
-    margin-left: 45px;
-    bottom: 31px;
+    margin-left: 70px;
+    bottom: 45px;
     background-color: white;
 }
 
@@ -405,7 +394,7 @@ h5 {
 
 .section7 {
     background: url(img/Layer%2097.png) no-repeat center top;
-    height: 1260px;
+    height: 1165px;
 }
 
 .c_title h2 {
@@ -423,24 +412,21 @@ input::-webkit-input-placeholder {
     color: white;
 }
 
+.submit_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
 .submit_1 input {
     border: 1px solid white;
 	background-color: transparent;
     color: white;
-    float: left;
-    width: 360px;
+    width: 1fr;
     height: 50px;
     margin-bottom: 40px;
     box-sizing: border-box;
     padding-left: 20px;
-}
-
-.submit_1 input:nth-child(3) {
-    float: right;
-}
-
-.submit_1 input:nth-child(2) {
-    margin-left: 45px;
 }
 
 .submit_2 input {
@@ -468,6 +454,7 @@ input::-webkit-input-placeholder {
 
 .map {
     margin-top: 150px;
+    width: 100%;
 }
 
 /* Footer*/
