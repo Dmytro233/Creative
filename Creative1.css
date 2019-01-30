@@ -23,6 +23,7 @@ body {
 header {
     background: url(img/Layer%2096.png) no-repeat center top / cover;
     height: 870px;
+    padding: 0 90px;
 }
 
 .container {
@@ -106,6 +107,7 @@ header p {
 .section1 {
     background-color: #11749e;
     height: 740px;
+    padding: 0 90px;
 }
 
 h2 {
@@ -205,6 +207,7 @@ h4 {
 
 .section3 {
     background-color: #ffffff;
+    padding: 0 90px;
 }
 
 .b_title h2 {
@@ -260,6 +263,7 @@ h5 {
 .section4 {
     background-color: #11749e;
     height: 350px;
+    padding: 0 90px;
 }
 
 .write {
@@ -282,6 +286,7 @@ h5 {
 .section5 {
     background: url(img/Layer%2087.png) no-repeat center top / cover;
     height: 840px;
+    padding: 0 90px;
 }
 
 .phone {
@@ -336,6 +341,7 @@ h5 {
 .section6 {
     background-color: #ffffff;
     height: 950px;
+    padding: 0 90px;
 }
 
 .t_title h2 {
@@ -395,6 +401,10 @@ h5 {
 .section7 {
     background: url(img/Layer%2097.png) no-repeat center top;
     height: 1165px;
+}
+
+.section7_p {
+    padding: 0 90px;
 }
 
 .c_title h2 {
@@ -462,6 +472,7 @@ input::-webkit-input-placeholder {
 footer {
     background-color: #222222;
     height: 110px;
+    padding: 0 90px;
 }
 
 .footer_text h6 {
