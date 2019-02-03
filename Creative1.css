@@ -60,7 +60,7 @@ header {
     margin-right: 30px;
 }
 
-h1 {
+header h1 {
     margin: 0;
     padding: 0;
     color: white;
@@ -81,36 +81,18 @@ header p {
 }
 
 .scroll_down {
-    margin-top: 118px;
-    margin-left: 550px;
-}
-
-.scroll_down img {
-    position: relative;
-}
-
-.s1 {
-    top: -80px;
-}
-
-.s2 {
-    left: -75px;
-}
-
-.s3 {
-    left: -123px;
-    top: -30px;
+    text-align: center;
+    margin-top: 120px;
 }
 
 /*Section1*/
 
 .section1 {
     background-color: #11749e;
-    height: 740px;
     padding: 0 90px;
 }
 
-h2 {
+.section1 h2 {
     margin: 0;
     padding: 0;
     color: white;
@@ -123,22 +105,13 @@ h2 {
 
 .feature {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     margin-top: 140px;
+    padding-bottom: 100px;
 }
 
-.circle_picture img {
-    position: relative;
-}
-
-.circle {
-    left: 63px;
-}
-
-.c_icon {
-    right: 25px;
-    bottom: 50px
+.circle_picture {
+    text-align: center;
 }
 
 h3 {
@@ -210,15 +183,24 @@ h4 {
     padding: 0 90px;
 }
 
-.b_title h2 {
-    color: #222222;
-    position: relative;
+.section3 h1 {
+    margin: 0;
+    padding: 0;
+    color: #d7d7d7;
+    font-size: 180px;
+    text-align: center;
+    padding-top: 50px;
 }
 
-.b_title img {
+.section3 h2 {
+    margin: 0;
+    padding: 0;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: center;
     position: relative;
-    margin-left: 530px;
-    bottom: 105px;
+    bottom: 125px;
 }
 
 .section3 h5 {
@@ -235,9 +217,9 @@ h5 {
 
 .blog {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     margin-top: 100px;
-    margin-bottom: 110px;
+    padding-bottom: 110px;
 }
 
 .blog_s img {
@@ -262,15 +244,14 @@ h5 {
 
 .section4 {
     background-color: #11749e;
-    height: 350px;
     padding: 0 90px;
 }
 
 .write {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 130px;
-    padding-top: 140px;
+    grid-template-columns: repeat(auto-fit, minmax(470px, 1fr));
+    grid-gap: 130px;
+    padding: 140px 0;
 }
 
 .write_s img {
@@ -285,15 +266,14 @@ h5 {
 
 .section5 {
     background: url(img/Layer%2087.png) no-repeat center top / cover;
-    height: 840px;
     padding: 0 90px;
 }
 
 .phone {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 200px;
-    padding-top: 150px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-row-gap: 70px;
+    padding: 150px 0;
 }
 
 .phone_s h4 {
@@ -331,28 +311,35 @@ h5 {
     margin-top: 20px;
 }
 
-.phone_s img {
-    max-height: 650px;
-    max-width: 315px;
+.phone_p {
+    text-align: center;
 }
 
 /* Section6*/
 
 .section6 {
     background-color: #ffffff;
-    height: 950px;
     padding: 0 90px;
 }
 
-.t_title h2 {
-    color: #222222;
-    position: relative;
+.section6 h1 {
+    margin: 0;
+    padding: 0;
+    color: #d7d7d7;
+    font-size: 180px;
+    text-align: center;
+    padding-top: 50px;
 }
 
-.t_title img {
+.section6 h2 {
+    margin: 0;
+    padding: 0;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: center;
     position: relative;
-    margin-left: 530px;
-    bottom: 105px;
+    bottom: 125px;
 }
 
 .section6 h5 {
@@ -361,9 +348,8 @@ h5 {
 
 .team {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 100px;
-    margin-bottom: 110px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    padding: 100px 0;
 }
 
 .t_picture {
@@ -373,22 +359,13 @@ h5 {
 .team_s img {
     max-width: 250px;
     max-height: 250px;
-    position: relative;
-}
-
-.name_t {
-    display: block;
-    position: relative;
-    width: 150px;
-    margin-left: 70px;
-    bottom: 45px;
-    background-color: white;
 }
 
 .team_s h3 {
     margin: 0;
     padding: 0;
     color: #11749e;
+    text-align: center;
 }
 
 .team_s h6 {
@@ -407,15 +384,25 @@ h5 {
     padding: 0 90px;
 }
 
-.c_title h2 {
+.section7 h1 {
+    margin: 0;
+    padding: 0;
     color: white;
-    position: relative;
+    opacity: 0.2;
+    font-size: 180px;
+    text-align: center;
+    padding-top: 50px;
 }
 
-.c_title img {
+.section7 h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: center;
     position: relative;
-    margin-left: 530px;
-    bottom: 105px;
+    bottom: 125px;
 }
 
 input::-webkit-input-placeholder {
@@ -424,7 +411,7 @@ input::-webkit-input-placeholder {
 
 .submit_1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 20px;
 }
 
